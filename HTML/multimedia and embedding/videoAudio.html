@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio&video</title>
+</head>
+
+<body>
+    <h1>Audio and video example to test my skills out</h1>
+    <h2>First autoplayed video with loop </h2>
+    <p>autoplay videos must be muted in most browsers</p>
+    <video src="rabbit320.mp4" controls autoplay muted loop>
+        your browser is not supporting mp4 videos
+    </video>
+
+    <h2>Now I will add videos with alternative sources and splash image</h2>
+    <p>i draw this image in paint</p>
+    <video controls poster="my splash.png">
+        <source src="rabbit320.mp4" type="video/mp4">
+        <source src="rabbit320.webm" type="video/webm">
+    </video>
+
+</body>
+
+</html>
