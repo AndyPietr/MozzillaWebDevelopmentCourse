@@ -1,0 +1,37 @@
+header {
+    padding: 3px;
+    text-align: justify;
+    background: #1abc9c;
+    color: white;
+    font-size: 14px;
+  }
+
+  body{
+      background-color: rgb(158, 172, 146);
+  }
+  /* First way, Using adjacent combinator */
+  h2 + p {color: red;}
+
+.list li {
+    list-style-type: none
+}
+
+ul.list > li {
+    border-bottom: 1px solid gray;
+  }
+
+
+  /* assignment 5  */
+li {
+  margin: 8px 0;
+}
+a[title] {border-color: pink;
+border-style: solid;}
+
+a[href*="contact"] {border-color: orange;
+  border-style: solid;}
+
+a[href^="https"] {
+  border-color: green;
+  border-style: solid;
+}
