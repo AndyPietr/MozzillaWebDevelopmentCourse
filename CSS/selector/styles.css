@@ -1,0 +1,28 @@
+a:visited {
+    color: green;
+  }
+  
+  a:link {
+    color: orange;
+  }
+  
+  a:active {
+    background-color: orangered;
+  }
+  
+  a:hover {
+    text-decoration-line: none;
+  }
+  
+  
+  .container > :first-child {
+    font-size: 150%;
+  }
+  
+  .container > :first-child::first-line  {
+    color: red;
+  }
+
+  table tr:nth-child(even) { background-color: #333;
+color: white;}
+  
