@@ -1,4 +1,4 @@
-.box{
+.box1{
     border-width: 5px;
     border-style: solid;
     border-color: black;
@@ -9,10 +9,33 @@
     background-repeat: repeat-x; 
 }
 
-h2 {
+.box1 h2 {
     background-color: rgba(43, 31, 27, 0.8);
     width: 80%;
     margin: 1em;
     color: white;
 
+}
+
+.box2{
+    border-width: 5px;
+    border-color: lightblue;
+    border-style: solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 40px;
+
+    width: 30em;
+}
+
+.box2 h2{
+    background-image: url(star.png), url(star.png);
+    background-repeat: no-repeat, repeat-y;
+    background-position: left, right;
+
+    padding-left: 30px;
+    text-align: center;
+    
+    display: flexbox;
+    height: 90px;
+    
 }
